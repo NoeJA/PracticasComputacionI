@@ -83,7 +83,7 @@ void ImprimirSolucion(matriz& miMatriz){
     int n = miMatriz.size();
     for(int i=0;i<n;i++)
         {
-            cout<<"\nx"<<i+1<<" = "<<miMatriz[i][n]<<endl;
+            cout<<"\nx"<<i<<" = "<<miMatriz[i][n]<<endl;
         }
 }
 
