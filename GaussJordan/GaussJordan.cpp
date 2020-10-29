@@ -2,10 +2,10 @@
 #include <iostream>
 #include <array>
 
-// Añadir std para fácil llamado de funciones
+// AÃ±adir std para fÃ¡cil llamado de funciones
 using namespace std;
 
-//// Declaración de funciones
+//// DeclaraciÃ³n de funciones
 //Definimos un template (un tipo de dato) para nuestra matriz
 template <typename matriz>
 void LlenarMatriz(matriz& miMatriz);
@@ -22,9 +22,9 @@ void ImprimirSolucion(matriz& miMatriz);
 
 int main()
 {
-    // Definimos el número de variables de nuestro sistema
+    // Definimos el nÃºmero de variables de nuestro sistema
     const int variables = 3;
-    // El número de columnas será el número de variables más su solición para cada ecuación
+    // El nÃºmero de columnas serÃ¡ el nÃºmero de variables mÃ¡s su soliciÃ³n para cada ecuaciÃ³n
     const int columnas = variables + 1;
 
     // Inicializamos la matriz que vamos a ocupar
@@ -33,18 +33,18 @@ int main()
     // Pedimos al usuario que llene la matriz
     LlenarMatriz(miMatriz);
 
-    // Aplicamos el método de Gauss-Jordan sobre nuestra matriz
+    // Aplicamos el mÃ©todo de Gauss-Jordan sobre nuestra matriz
     GaussJordan(miMatriz);
 
-    // Imprimimos la solución de la matriz
+    // Imprimimos la soluciÃ³n de la matriz
     ImprimirSolucion(miMatriz);
 
-    return 0; // Indicamos que salimos del programa con éxito
+    return 0; // Indicamos que salimos del programa con Ã©xito
 }
 
 /*
 Llena 'miMatriz' con valores ingresados por el usuario para cada elemento.
-No regresa ningún valor.
+No regresa ningÃºn valor.
 */
 template <typename matriz>
 void LlenarMatriz(matriz& miMatriz)
@@ -60,7 +60,7 @@ void LlenarMatriz(matriz& miMatriz)
 
 /*
 Imprime cada elemento de 'miMatriz' emulando una matriz con corchetes cuadrados.
-No regresa ningún valor.
+No regresa ningÃºn valor.
 */
 template <typename matriz>
 void ImprimirMatriz(matriz& miMatriz)
@@ -75,8 +75,8 @@ void ImprimirMatriz(matriz& miMatriz)
 }
 
 /*
-Imprime en pantalla la solución para cada variable del sistema de ecuaciones correspondiente a los valores en 'miMatriz'.
-No regresa ningún valor.
+Imprime en pantalla la soluciÃ³n para cada variable del sistema de ecuaciones correspondiente a los valores en 'miMatriz'.
+No regresa ningÃºn valor.
 */
 template <typename matriz>
 void ImprimirSolucion(matriz& miMatriz){
@@ -89,8 +89,8 @@ void ImprimirSolucion(matriz& miMatriz){
 
 
 /*
-Implementa el algoritmo de Gauss-Jordan sobre 'miMatriz', finalizando en ella la solución del algoritmo.
-No regresa ningún valor.
+Implementa el algoritmo de Gauss-Jordan sobre 'miMatriz', finalizando en ella la soluciÃ³n del algoritmo.
+No regresa ningÃºn valor.
 */
 template <typename matriz>
 void GaussJordan(matriz& miMatriz) {
