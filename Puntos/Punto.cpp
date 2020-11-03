@@ -1,6 +1,5 @@
 #include "Puntoss.h"
 #include <iostream>
-#include <array>
 #include <cmath>
 // Incluimos nuestro encabezado con la definición de la clase Punto2D
 #include "Puntoss.h"
