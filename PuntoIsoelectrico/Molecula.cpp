@@ -14,19 +14,16 @@ void Molecula::AgregarGrupo(Grupo crearGrupo){
 
 float Molecula::CalcularPuntoIsoelectrico(){
     float eq=0;
-    for (int i = 0, num =3; i < num; i++)
-  {
     
         vector<int> c1;
-        for (int i = 0; i < 3; i++){
-            if (carga[i]==0){
+        for (int i = 1; i < 3; i++){
+            if (pka[i]>pka[i-1]){
                 c1.push_back(i);
                 
             }
             eq=(pka[c1[0]]+pka[c1[1]])/2;
         }
     
-  }
   return eq;
 	    
 	}
