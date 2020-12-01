@@ -19,7 +19,7 @@ float Molecula::CalcularPuntoIsoelectrico(){
     
         vector<int> c1;
         for (int i = 0; i < 3; i++){
-            if (carga[i]!=0){
+            if (carga[i]==0){
                 c1.push_back(i);
                 
             }
