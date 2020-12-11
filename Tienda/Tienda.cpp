@@ -6,8 +6,8 @@
 #include "Almacen.h"
 
 // Definimos el número de almacenes y de artículos que va a haber
-#define NUM_ALMACENES 2
-#define NUM_ARTICULOS 2
+#define NUM_ALMACENES 3
+#define NUM_ARTICULOS 3
 
 using namespace std;
 
