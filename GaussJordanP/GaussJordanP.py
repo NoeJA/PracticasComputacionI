@@ -1,5 +1,4 @@
 #Método Gauss Jordan
-import sys
 def crearMa(Ec,l):
     for i in range(0,Ec):
         l.append([])
@@ -23,6 +22,13 @@ def llenar(Ec,l):
 
     return l
 
+def intercambio(f1,f2,n,l):
+    for i in range(0,n+1):
+        temp=l[f1][i]
+        l[f1][i] = l[f2][i]
+        l[f2][i] = temp
+    return l
+
 n=int(input("Introduce el número de ecuaciones"))
 
 s=[]
@@ -35,10 +41,11 @@ llenar(n, M)
 
 for i in range(n):
     if M[i][i] == 0:
-        sys.exit('No tiene solución')
-        
+            intercambio(i,i+1,n,M)
     for j in range(n):
         if i != j:
+            if M[i][i]==0:
+                intercambio(i,i+1,n,M)
             aux = M[j][i]/M[i][i]
 
             for k in range(n+1):
@@ -51,5 +58,3 @@ for i in range(n):
 print("Solución")
 for l in range(n):
     print("x"+str(l)+" =",s[l])
-    
-
