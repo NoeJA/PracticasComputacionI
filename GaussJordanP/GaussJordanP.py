@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 #Método Gauss Jordan
 import sys
 def crearMa(Ec,l):
@@ -54,10 +48,8 @@ for i in range(n):
 for i in range(n):
     s[i] = M[i][n]/M[i][i]
     
-
-
 print("Solución")
 for l in range(n):
-    print("x"+str(l),s[l])
+    print("x"+str(l)+" =",s[l])
     
 
