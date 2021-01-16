@@ -23,7 +23,6 @@ def crears(Ec,l):
     return l
     
 def llenar(Ec,l):      
-    print(l)
     for i in range(0, Ec):
         for j in range(0, Ec+1):
             l[i][j]=float(input("Introduce el elemento: "+ str(i)+","+str(j)))
