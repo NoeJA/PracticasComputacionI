@@ -1,4 +1,5 @@
 #Método Gauss Jordan
+import sys
 def crearMa(Ec,l):
     for i in range(0,Ec):
         l.append([])
@@ -38,23 +39,31 @@ crears(n,s)
 llenar(n, M)
 
 
-
 for i in range(n):
     if M[i][i] == 0:
+        if i+1==n:
+            intercambio(i,i-1,n,M)
+        else:
             intercambio(i,i+1,n,M)
     for j in range(n):
         if i != j:
             if M[i][i]==0:
-                intercambio(i,i+1,n,M)
-            aux = M[j][i]/M[i][i]
+                sys.exit("El sistema no tiene solucion")
+            else:
+                aux = M[j][i]/M[i][i]
 
             for k in range(n+1):
                 M[j][k] = M[j][k] - aux * M[i][k]
 
 
 for i in range(n):
-    s[i] = M[i][n]/M[i][i]
-    
+    if M[i][i]==0:
+        sys.exit("El sistema no tiene solucion")
+    else:
+        s[i] = M[i][n]/M[i][i]
+
+
 print("Solución")
 for l in range(n):
     print("x"+str(l)+" =",s[l])
+    
