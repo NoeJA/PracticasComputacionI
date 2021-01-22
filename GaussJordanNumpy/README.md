@@ -13,7 +13,7 @@
 
 ### Resultados
 
-* Tabla de Tiempo de cálculo con los tres métodos por número de ecuanciones. *
+*Tabla de tiempo de cálculo con los tres métodos por número de ecuaciones.
 
 | Ecuaciones | C++       | Python L  | Numpy      |
 |:-----------| :-------: | :-------: | ---------: |
@@ -30,7 +30,7 @@ https://dochub.com/eon-liva/gDqeQZ6Vzg8jbj9w0jLO4Y/rendimiento-png?dt=QyxXsJkzfS
 
 Podemos notar que en el caso de C++ los resultados son muy veloces, comparados con las listas de listad de Python, y con numpy, ya que C++ posee la característica de tipado estático, que hace mas sencillo el procesar los datos al saber que ya están predefinidos los tipos de estos, además de que los arreglos también son estáticos, y cómo no: la ventaja de ser un lenguaje compilado, que lo hace mas eficiente a la hora de comunicarse con la computadora.
 
-En el caso de las listas de listas integradas de Python, podemos observar que la velocidad es relativamente alta, esto debido al indexado integrado de la slistas, que realiza mas fácil el acceso, viéndose disminuida la velocidad, por el tipado dinámico y el hecho de que estas listas también sean dinámicas.
+En el caso de las listas de listas integradas de Python, podemos observar que la velocidad es relativamente alta, esto debido al indexado integrado de la listas, que facilita y hace mas rápido el acceso, mientras que por otro lado, se vé disminuida la velocidad, por el tipado dinámico y el hecho de que estas listas también sean dinámicas, además de ser un lenguaje interpretado.
 
 Finalmente, numpy presentó un tiempo de cálculo mayor, mientras que sus característica incluyen calculos vectorizados sobre arreglos, matrices y vectores, además de creación e inicialización fácil y práctica de estos, compartiendo con C++ el hecho de ser estáticos, es decir, no se puede modificar su tamaño tan fácilmente, situación que en teoría, debería eficientar los procesos.
 
