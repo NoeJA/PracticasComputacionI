@@ -8,12 +8,15 @@
 * Implementar el método de Gauss-Jordan haciendo uso de las herramientas de NumPy.
 * Hacer una comparativa de los tiempos de ejecución de tu implementación del método de Gauss-Jordan en C++ y las dos implementaciones en Python (considerando la que vas a   realizar con NumPy). En esta comparativa tendrás que escribir todas las diferencias que consideres fundamentales entre las diferentes implementaciones.
 * Las matrices realizadas se generaron de manera aleatoria y se tomó el tiempo de duración de la aplicación de la eliminación de Gauss-Jordan, con 4, 20, 50 y 100 ecuaciones.
+* En el caso de C++, la implementación constó de tres ciclo anidados, utilizando la clase array para generar la matriz, misma que fue llenada de forma aleatoria elemento por elemento.
+* Para las listas integradas de Python, se generaron las listas de acuerdo al tipo de ecuaciones y de igual manera se llenó elemento por elemento, mientrás que el método de eliminación también fue realizado con tres ciclos for.
+* En el caso de numpy se utilizó la función *np.random.randint* y *np.random.rand* para crear un arreglos aleatorios para probar el método, mientras que el método de igual manera constó de tres ciclos anidados.
 
 
 
 ### Resultados
 
-*Tabla de tiempo de cálculo con los tres métodos por número de ecuaciones.
+*Tabla de tiempo de cálculo con los tres métodos por número de ecuaciones.*
 
 | Ecuaciones | C++       | Python L  | Numpy      |
 |:-----------| :-------: | :-------: | ---------: |
