@@ -18,9 +18,9 @@ Tabla
 | 100        | 39.010 ms |	438.07 ms|	5759.52 ms|
 
 Podemos ver de forma más gráfica las variaciones entre resultados.
+* Adjunto el link de la gráfica, ya que por mas intentos que hago, no me deja adjuntar la imagen.
 
-![Gráfica de rendimiento](https://dochub.com/eon-liva/gDqeQZ6Vzg8jbj9w0jLO4Y/rendimiento-png?dt=QyxXsJkzfSQxQAxkA44C)
-
+https://dochub.com/eon-liva/gDqeQZ6Vzg8jbj9w0jLO4Y/rendimiento-png?dt=QyxXsJkzfSQxQAxkA44C
 
 Podemos notar que en el caso de C++ los resultados son muy veloces, comparados con las listas de listad de Python, y con numpy
 
