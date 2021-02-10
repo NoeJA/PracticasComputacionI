@@ -28,6 +28,29 @@
 Podemos ver de forma más gráfica las variaciones entre resultados.
 * Adjunto el link de la gráfica, ya que por mas intentos que hago, no me deja adjuntar la imagen.
 
+|    |   t |        y |
+|---:|----:|---------:|
+|  0 |   0 |  12      |
+|  1 |   1 |  9.06734 |
+|  2 |   2 |  8.61062 |
+|  3 |   3 |  9.13025 |
+|  4 |   4 |  9.00112 |
+|  5 |   5 |  8.98374 |
+|  6 |   6 |  9.00565 |
+|  7 |   7 |  8.99997 |
+|  8 |   8 |  8.99932 |
+|  9 |   9 |  9.00024 |
+| 10 |  10 |  9       |
+| 11 |  11 |  8.99997 |
+| 12 |  12 |  9.00001 |
+| 13 |  13 |  9       |
+| 14 |  14 |  9       |
+| 15 |  15 |  9       |
+| 16 |  16 |  9       |
+| 17 |  17 |  9       |
+| 18 |  18 |  9       |
+| 19 |  19 |  9       |
+
 https://dochub.com/eon-liva/gDqeQZ6Vzg8jbj9w0jLO4Y/rendimiento-png?dt=QyxXsJkzfSQxQAxkA44C
 
 
